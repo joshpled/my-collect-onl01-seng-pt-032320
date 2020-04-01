@@ -4,7 +4,7 @@ def my_collect(array)
   collection = []
   while i < array.length
     binding.pry
-    collection.push(collection[i])
+    collection.push(array[i])
     i += 1
   end
   collection
